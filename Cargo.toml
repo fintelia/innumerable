@@ -1,0 +1,16 @@
+[package]
+name = "innumerable"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+rust-version = "1.67.1"
+
+description = "A simple crate for counting events in Rust libraries."
+homepage = "https://github.com/fintelia/innumerable"
+repository = "https://github.com/fintelia/innumerable"
+
+include = ["/src", "LICENSE-APACHE", "LICENSE-MIT", "README.md"]
+
+[dependencies]
+hashbrown = "0.14.5"
+lazy_static = "1.5.0"
